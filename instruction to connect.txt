@@ -1,0 +1,8 @@
+Як підключити реакт нейтів до телефону:
+1) Ввести команду в терміналі 
+$env:REACT_NATIVE_PACKAGER_HOSTNAME = "192.168.0.124"
+тоді npx expo start -c
+Якщо не вийде, то ці команди:
+npm install -g expo-cli@latest
+rm -rf node_modules package-lock.json - тільки замінити для windows
+npm install --legacy-peer-deps
