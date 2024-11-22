@@ -25,7 +25,7 @@ export default class Pro extends React.Component {
           </ImageBackground>
           <Block space="between" style={styles.padded}>
             <Block>
-              <Block >
+              {/* <Block >
                 <Block>
                   <Text color="white" size={60}>Unlock</Text>
                 </Block>
@@ -38,24 +38,24 @@ export default class Pro extends React.Component {
                     <Text size={16} color="white">PRO</Text>
                   </Block>
                 </Block>
-              </Block>
+              </Block> */}
               <Text size={16} color='rgba(255,255,255,0.6)'>
-                Take advantage of all the features and screens made upon Galio Design System, coded on React Native for both.
+              Unfortunately, this page is still under construction.
               </Text>
-              <Block row style={{ marginTop: theme.SIZES.BASE * 1.5, marginBottom: theme.SIZES.BASE * 4 }}>
-                <Image
+              <Block row style={{ marginTop: theme.SIZES.BASE * 1.5, marginBottom: theme.SIZES.BASE * 2 }}>
+                {/* <Image
                   source={require('../assets/images/ios.png')}
                   style={{ height: 38, width: 82, marginRight: theme.SIZES.BASE * 1.5 }} />
                 <Image
                   source={require('../assets/images/android.png')}
-                  style={{ height: 38, width: 140 }} />
+                  style={{ height: 38, width: 140 }} /> */}
               </Block>
               <Button
                 shadowless
                 style={styles.button}
                 color={materialTheme.COLORS.BUTTON_COLOR}
                 onPress={() => navigation.navigate('Home')}>
-                GET PRO VERSION
+                BACK HOME
               </Button>
             </Block>
           </Block>
@@ -81,14 +81,9 @@ const styles = StyleSheet.create({
     height: theme.SIZES.BASE * 3,
     shadowRadius: 0,
     shadowOpacity: 0,
+    marginBottom: 50,
   },
-  pro: {
-    backgroundColor: materialTheme.COLORS.LABEL,
-    paddingHorizontal: 8,
-    marginLeft: 12,
-    borderRadius: 2,
-    height: 22
-  },
+  
   gradient: {
     zIndex: 1,
     position: 'absolute',

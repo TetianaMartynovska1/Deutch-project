@@ -18,13 +18,8 @@ function CustomDrawerContent({
   const insets = useSafeArea();
   const screens = [
     "Home",
-    "Woman",
-    "Man",
-    "Kids",
-    "New Collection",
     "Profile",
-    "Settings",
-    "Components"
+    "Settings"
   ];
   return (
     <Block
@@ -121,14 +116,14 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     marginBottom: theme.SIZES.BASE,
   },
-  pro: {
-    backgroundColor: materialTheme.COLORS.LABEL,
-    paddingHorizontal: 6,
-    marginRight: 8,
-    borderRadius: 4,
-    height: 19,
-    width: 38,
-  },
+  // pro: {
+  //   backgroundColor: materialTheme.COLORS.LABEL,
+  //   paddingHorizontal: 6,
+  //   marginRight: 8,
+  //   borderRadius: 4,
+  //   height: 19,
+  //   width: 38,
+  // },
   seller: {
     marginRight: 16,
   }

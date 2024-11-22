@@ -9,9 +9,8 @@
       "android" , "web"   ],
     "version": "1.8.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon(2).png",
     "splash": {
-      "image": "./assets/images/splash.png",
       "resizeMode": "cover",
       "backgroundColor": "#6C24AA"
     },

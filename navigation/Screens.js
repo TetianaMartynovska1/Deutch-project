@@ -21,9 +21,9 @@ const Drawer = createDrawerNavigator();
 
 const profile = {
   avatar: Images.Profile,
-  name: "Rachel Brown",
+  name: "Tetiana Martynovska",
   type: "Seller",
-  plan: "Pro",
+  // plan: "Pro",
   rating: 4.8,
 };
 

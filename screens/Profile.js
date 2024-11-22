@@ -21,7 +21,7 @@ export default class Profile extends React.Component {
             imageStyle={styles.profileImage}>
             <Block flex style={styles.profileDetails}>
               <Block style={styles.profileTexts}>
-                <Text color="white" size={28} style={{ paddingBottom: 8 }}>Rachel Brown</Text>
+                <Text color="white" size={28} style={{ paddingBottom: 8 }}>Tetiana Martynovska</Text>
                 <Block row space="between">
                   <Block row>
                     <Block middle style={styles.pro}>
